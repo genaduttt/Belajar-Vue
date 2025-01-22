@@ -1,32 +1,33 @@
 <template>
-    <section class="video-section py-4">
+    <section class="feature-section py-4">
         <div class="container">
-            <h2 class="text-center mb-4 text-bold" style="font-weight: bold; color: rgba(46, 127, 55, 0.967);">Video</h2>
-            <div class="row">
-                <div class="col-md-6 col-12 mb-3">
-                    <div class="video-card p-3 d-flex flex-column flex-md-row align-items-center">
-                        <video controls class="img-fluid me-md-3 mb-3 mb-md-0" style="max-width: 200px;">
-                            <source src="../assets/Video1.mp4" type="video/mp4">
-                            <track src="../subtitles-en.vtt" kind="subtitles" srclang="en" label="English">
-                            <track src="../subtitles-id.vtt" kind="subtitles" srclang="id" label="Bahasa Indonesia">
-                        </video>
-                        <div>
-                            <h5><b>Makanan Sehat</b></h5>
-                            <p class="video-description">Makanan sehat merupakan makanan yang mengandung 4 sehat 5 sempurna, kaya akan...</p>
+            <h2 class="text-center mb-4 text-bold" style="font-weight: bold; color: rgba(46, 127, 55, 0.967);">Produk Kami</h2>
+            <div class="row flex-nowrap overflow-auto">
+                <div class="col-md-4 col-12 mb-3 flex-shrink-0">
+                    <div class="feature-card p-3 border">
+                        <div class="icon mb-2">
+                            <img src="../assets/fruits.svg" alt="Buah Segar Icon" width="50" height="50">
                         </div>
+                        <h5><b>Buah Segar</b></h5>
+                        <p>Kami menyediakan buah-buahan segar terbaik yang dipetik langsung dari kebun. Setiap buah diproses dengan standar kualitas tinggi untuk memastikan rasa, kesegaran, dan nutrisi tetap terjaga hingga ke tangan Anda.</p>
                     </div>
                 </div>
-                <div class="col-md-6 col-12 mb-3">
-                    <div class="video-card p-3 d-flex flex-column flex-md-row align-items-center">
-                        <video controls class="img-fluid me-md-3 mb-3 mb-md-0" style="max-width: 200px;">
-                            <source src="../assets/Video2.mp4" type="video/mp4">
-                            <track src="../subtitles-en.vtt" kind="subtitles" srclang="en" label="English">
-                            <track src="../subtitles-id.vtt" kind="subtitles" srclang="id" label="Bahasa Indonesia">
-                        </video>
-                        <div>
-                            <h5><b>Jus Alami</b></h5>
-                            <p class="video-description">Minum jus segar setiap hari untuk menjaga vitalitas dan meningkatkan daya tahan...</p>
+                <div class="col-md-4 col-12 mb-3 flex-shrink-0">
+                    <div class="feature-card p-3 border">
+                        <div class="icon mb-2">
+                            <img src="../assets/vegetables.svg" alt="Buah Segar Icon" width="50" height="50">
                         </div>
+                        <h5><b>Sayuran Organik</b></h5>
+                        <p>Kami menyediakan sayuran berkualitas tinggi yang ditanam tanpa bahan kimia berbahaya. Sayuran ini tidak hanya sehat, tetapi juga mendukung gaya hidup ramah lingkungan dengan menjaga keseimbangan alam.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 mb-3 flex-shrink-0">
+                    <div class="feature-card p-3 border">
+                        <div class="icon mb-2">
+                            <img src="../assets/drink.svg" alt="Buah Segar Icon" width="50" height="50">
+                        </div>
+                        <h5><b>Jus Segar</b></h5>
+                        <p>Nikmati jus alami dari bahan-bahan segar tanpa tambahan gula buatan. Jus kami dibuat untuk memberikan cita rasa alami dengan kandungan nutrisi yang tetap utuh, cocok untuk menemani hari Anda.</p>
                     </div>
                 </div>
             </div>

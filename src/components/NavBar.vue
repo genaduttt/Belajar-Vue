@@ -9,10 +9,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link active" href="#">Shop</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="#">Promo</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="#">Article</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="#">About</a></li>
+                    <li class="nav-item"><router-link class="nav-link active" to="/">Home</router-link></li>
+                    <li class="nav-item"><router-link class="nav-link active" to="/shop">Shop</router-link></li>
+                    <li class="nav-item"><router-link class="nav-link active" to="/promo">Promo</router-link></li>
+                    <li class="nav-item"><router-link class="nav-link active" to="/article">Article</router-link></li>
+                    <li class="nav-item"><router-link class="nav-link active" to="/about">About</router-link></li>
                 </ul>
                 <button class="btn btn-outline-primary ms-auto">Sign up</button>
             </div>
